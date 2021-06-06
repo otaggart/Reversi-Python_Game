@@ -230,7 +230,7 @@ while True:
             x, y = getComputerMove(mainBoard, computerTile)
             makeMove(mainBoard, computerTile, x, y)
 
-            if getValidMoves(mainBoard, playerTile) == []:
+            if getValidMoves(mainBoard, playerTile) ==  []:
                 break
             else:
                 turn = 'player'
